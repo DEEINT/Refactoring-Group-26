@@ -8,7 +8,7 @@ def Find_medS(arr, i, j, mosSize):
             red = arr[n][n1][0]
             green = arr[n][n1][1]
             blue = arr[n][n1][2]
-            pixel = (int(red) + int(green) + int(green))/3
+            pixel = (int(red) + int(green) + int(blue))/3
             medS += pixel
     medS = int(medS // 100)
     return medS
